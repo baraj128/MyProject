@@ -5877,7 +5877,6 @@ Transform:
   - {fileID: 1095175520}
   - {fileID: 2116682531}
   - {fileID: 2125606650}
-  - {fileID: 132822382}
   - {fileID: 2074036009}
   - {fileID: 1179237487}
   - {fileID: 47672539}
@@ -5938,6 +5937,7 @@ Transform:
   - {fileID: 262796597}
   - {fileID: 1935485493}
   - {fileID: 1849084826}
+  - {fileID: 132822382}
   - {fileID: 1885136855}
   - {fileID: 1972577717}
   - {fileID: 1027675712}
@@ -7346,11 +7346,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: UFO
-      objectReference: {fileID: 0}
-    - target: {fileID: 8419391299997058256, guid: 00ddf0562f0d047d79a982069e78aba6,
-        type: 3}
-      propertyPath: m_TagString
-      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 8419391299997058259, guid: 00ddf0562f0d047d79a982069e78aba6,
         type: 3}
