@@ -5,9 +5,9 @@ using UnityEngine;
 public class ShootWeapons : MonoBehaviour
 {
 
-    /*
+
     public GameObject barrel;
-    public LaserSiteControll 1zrSight; 
+    public LaserSiteControll lzrSight;
     public float speed;
     public float angle;
 
@@ -17,51 +17,53 @@ public class ShootWeapons : MonoBehaviour
 
     //Use this for initialization
     void Start() {
-        myUFO = GetComponent<UFOController>(); 
-    )    
+        myUFO = GetComponent<UFOController>();
+    }
 
     //Update is called once per frame
     void Update() {
 
-            ShootProjectile();
-        }
-        public void ShootProjectile()
+        ShootProjectile();
+    }
+    public void ShootProjectile()
 
-        {
-            //Rotate Laser
-            Vector3 dir = Input.mousePosition -
-     Camera.main.WorldToScreenPoint(transform.position);
-            angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
-            barrel.transform.roation = Quaternion.AngleAxis(angle, Vector3.forward);
-
-
-            //Set laser endpoint
-            dir = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            dir.z = 0f;
-            1zrSight.SetEnd(dir);
-            //Toggle Laser
-          //  if (Input.GetMouseButtonDown(1) || Input.GetKeyDown(KeyCode.Z)
-             {
+    {
+        //Rotate Laser
+        Vector3 dir = Input.mousePosition -
+ Camera.main.WorldToScreenPoint(transform.position);
+        angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
+        barrel.transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
 
 
-                1zrSight.ToggleLaser();
-            }
-
-            //Shoot projectile
-            if (Input.GetMouseButtonDown(0))
+        //Set laser endpoint
+        dir = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        dir.z = 0f;
+        lzrSight.SetEnd(dir);
+        //Toggle Laser
+        if (Input.GetMouseButtonDown(1) || Input.GetKeyDown(KeyCode.Z))
             {
-                dir = Input.mousePosition -
-
-   Camera.main.WorldToScreenPoint(transform.position);
-                angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
 
 
-                barrel.transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
-                Instantiate(projectille, transform.position, barrel.transform.rotation);
-            }
+            lzrSight.ToggleLaser();
         }
-        */
-}
+
+        //Shoot projectile
+        if (Input.GetMouseButtonDown(0))
+        {
+            dir = Input.mousePosition -
+
+Camera.main.WorldToScreenPoint(transform.position);
+            angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
+
+
+            barrel.transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+            Instantiate(projectille, transform.position, barrel.transform.rotation);
+        }
+    }
+
+}    
+
+
 
 
 
