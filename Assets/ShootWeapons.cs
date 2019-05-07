@@ -29,8 +29,7 @@ public class ShootWeapons : MonoBehaviour
 
     {
         //Rotate Laser
-        Vector3 dir = Input.mousePosition -
- Camera.main.WorldToScreenPoint(transform.position);
+        Vector3 dir = Input.mousePosition -Camera.main.WorldToScreenPoint(transform.position);
         angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
         barrel.transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
 
