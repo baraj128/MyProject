@@ -3,6 +3,9 @@ guid: 1e10b5ac4aa8246fb987b396a901c37d
 TextureImporter:
   fileIDToRecycleName:
     21300000: bullet 01
+    21300002: America's art_0
+    21300004: America's art_1
+    21300006: America's art_2
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -100,6 +103,66 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 7b13bc301cc2948839bb7d2b58e789c6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: America's art_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 54
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b8a971fb653249a781e38a78b790fb6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: America's art_1
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 59
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55eb79794360b488ab99da8db780987b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: America's art_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 27
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3de7ba95332f448e190321d24a193d32
       vertices: []
       indices: 
       edges: []
