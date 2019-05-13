@@ -2249,12 +2249,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6361799796795788872, guid: 9a8511148fc1643d3a588e283c7ee820,
+    - target: {fileID: 8419391299997058257, guid: 9a8511148fc1643d3a588e283c7ee820,
         type: 3}
-      propertyPath: projectille
-      value: 
-      objectReference: {fileID: 5358429942521527246, guid: 5675f1b0fd50f4007b0d7cd38aa59dab,
-        type: 3}
+      propertyPath: movementSpeed
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a8511148fc1643d3a588e283c7ee820, type: 3}
 --- !u!4 &231865602 stripped
