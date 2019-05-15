@@ -97,6 +97,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movementSpeed: 20
   theRB2D: {fileID: 0}
+  bulletDamage: 1
 --- !u!61 &5358429942521527244
 BoxCollider2D:
   m_ObjectHideFlags: 0

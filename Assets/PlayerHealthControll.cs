@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyHealthController : MonoBehaviour
+public class PlayerHealthControll : MonoBehaviour
 {
     public int health;
     // Start is called before the first frame update
@@ -12,17 +12,16 @@ public class EnemyHealthController : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update() 
+    void Update()
     {
         if (health <= 0)
-        { 
-        gameObject.transform.parent.gameObject.SetActive(false);
-        //gameObject.SetActive(false);
+        {
+            gameObject.SetActive(false);
+            //gameObject.SetActive(false);
         }
     }
-public void TakeDamage(int damage)
-{
-    health = health - damage;
-}
-
+    public void TakeDamage(int damage)
+    {
+        health = health - damage;
+    }
 }
