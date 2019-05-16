@@ -35989,22 +35989,19 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 8419391301136600676}
   m_PrefabAsset: {fileID: 0}
---- !u!58 &1569344779
-CircleCollider2D:
+--- !u!114 &1569344779
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1569344774}
   m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 1.98
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a15624d2d3e8e4a369c786266c1346db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 10
 --- !u!1001 &1570746857
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -47648,6 +47645,38 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56351f73c0798452ba55a52cfacb6eed, type: 3}
+--- !u!1 &2082456033 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 860209047184632353, guid: f9fa32c66dca74e29b9fe6252db4b066,
+    type: 3}
+  m_PrefabInstance: {fileID: 9028991824644175480}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2082456035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2082456033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70fdd52cbc9f6492a903ab8f1a6746cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 5
+--- !u!114 &2082456036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2082456033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 312cacb37d71241fe9c8d25df0bb4938, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyDamage: 1
 --- !u!4 &2083580190 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1427909837694009836, guid: 514c7a3b4355f4d60853a7a019e64b20,
@@ -49137,6 +49166,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8419391299997058257, guid: 00ddf0562f0d047d79a982069e78aba6,
+        type: 3}
+      propertyPath: movementSpeed
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00ddf0562f0d047d79a982069e78aba6, type: 3}
