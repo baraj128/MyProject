@@ -21640,7 +21640,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70fdd52cbc9f6492a903ab8f1a6746cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 10
+  health: 5
 --- !u!114 &1911821468
 MonoBehaviour:
   m_ObjectHideFlags: 0
