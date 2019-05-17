@@ -8,6 +8,7 @@ public class MoveBullet : MonoBehaviour
     public float movementSpeed;
     public Rigidbody2D theRB2D;
     public int bulletDamage;
+    public GameObject itemToSpawn;
     // Start is called before the first frame update
     void Start()
     {
@@ -33,12 +34,14 @@ public class MoveBullet : MonoBehaviour
         if (other.gameObject.tag == "Enemy")
         {
             other.GetComponent<EnemyHealthController>().TakeDamage(bulletDamage);
+            Instantiate(itemToSpawn, transform.position, transform.rotation);
             Destroy(gameObject);
+
         }
 
         else if (other.gameObject.tag != "Player")
         {
-
+            Instantiate(itemToSpawn, transform.position, transform.rotation);
             Destroy(gameObject);
         }
     }
