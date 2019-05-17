@@ -145,6 +145,8 @@ MonoBehaviour:
   movementSpeed: 20
   theRB2D: {fileID: 0}
   bulletDamage: 1
+  itemToSpawn: {fileID: 4081205988844261484, guid: fa1e4520652a449759f927fa31345369,
+    type: 3}
 --- !u!50 &5358429942521527245
 Rigidbody2D:
   serializedVersion: 4
